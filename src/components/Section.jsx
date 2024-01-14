@@ -21,7 +21,7 @@ const Section = () => {
             <div className='rounded-md w-full py-5 px-2 bg-[#020817] flex flex-col'>
                 <h1 className='text-[1.125rem] font-semibold px-4'>Where am I currently</h1>
                 <div className='flex gap-[20px] justify-between px-4 items-center'>
-                    <div className='flex items-center'>
+                    <div className='flex items-center gap-4'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                         <h3 className='text-[.875rem]'>Tashkent</h3>
                     </div>
@@ -35,8 +35,8 @@ const Section = () => {
             <div className='rounded-md w-full py-5 px-2 bg-[#020817] flex flex-col'>
                 <h1 className='text-[1.125rem] font-semibold px-4'>What am I working on?</h1>
                 <div className='flex gap-[20px] justify-between px-4 items-center'>
-                    <div className='flex items-center'>
-                        <img src={location} className='w-[25px] h-[25px]' /> 
+                    <div className='flex items-center gap-4'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path></svg>
                         <h3 className='text-[.875rem]'>EuroAsisa Tarvels</h3>
                     </div>
                     <div>
